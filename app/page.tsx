@@ -71,7 +71,8 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 right-0 z-[10]">
-        <Image src="/horse.png" alt="horse" height={300} width={300} className="absolute right-55 top-40" />
+        <Image src="/horse.png" alt="horse" height={300} width={300} className="absolute right-55 top-40"
+          unoptimized={true} />
 
         <Image src="/cliff.webp" alt="cliff" height={480} width={480} />
       </div>

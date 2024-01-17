@@ -13,7 +13,7 @@ export default function Home() {
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
             Make anything possible with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Web Development
             </span>
@@ -33,14 +33,14 @@ export default function Home() {
             </Link>
             <Link
               href="/my-projects"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute group-relative rounded-[20pc] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My projects
             </Link>
             <Link
               href="/contact-me"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20pc] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact me
@@ -58,13 +58,13 @@ export default function Home() {
         </Link>
         <Link
           href="/my-projects"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] bg-transparent border border-white  px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My projects
         </Link>
         <Link
           href="/contact-me"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] bg-transparent border border-white  px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Contact me
         </Link>
